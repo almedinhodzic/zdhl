@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_JSON</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>JSON- Konvertierung</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_FROM_UNICODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Konvertiert Uncode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_TO_UTF8</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Konvertiert String nach UTF-8</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DROP_DATA_LEVEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data- Level im JSON löschen (Output)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DROP_DATA_LEVEL</CMPNAME>
+     <SCONAME>IV_LEFT_OFFSET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Linker Offset der JSON-Zeichenfolge</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DROP_DATA_LEVEL</CMPNAME>
+     <SCONAME>IV_RIGHT_OFFSET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Rechter Offset der JSON-Zeichenfolge</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

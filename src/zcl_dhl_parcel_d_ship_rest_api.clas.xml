@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_DHL_PARCEL_D_SHIP_REST_API</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Rest API DHL</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_CREATE_ORDER_PARAMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>REST - Parameter-Felder aufrufen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_ORDER</CMPNAME>
+     <SCONAME>ES_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DHL REST: Log-Tabele</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_ORDER</CMPNAME>
+     <SCONAME>ES_ORDER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Order response</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_ORDER</CMPNAME>
+     <SCONAME>IS_ORDER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_ORDER</CMPNAME>
+     <SCONAME>IT_PARAMS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>REST - Parameter-Felder aufrufen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CREATE_ORDER_PARAMS</CMPNAME>
+     <SCONAME>IV_COMBINE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>If set, label and return label for one shipment will be prin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CREATE_ORDER_PARAMS</CMPNAME>
+     <SCONAME>IV_DOC_FORMAT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>PDF or ZPL2</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CREATE_ORDER_PARAMS</CMPNAME>
+     <SCONAME>IV_INCLUDE_DOCS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>include or URL</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CREATE_ORDER_PARAMS</CMPNAME>
+     <SCONAME>IV_MUST_ENCODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Legacy name printOnlyIfCodable. If set to true, labels will</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CREATE_ORDER_PARAMS</CMPNAME>
+     <SCONAME>IV_PRINT_FORMAT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Defines the print medium for the shipping label.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CREATE_ORDER_PARAMS</CMPNAME>
+     <SCONAME>IV_RETOURE_PRINT_FORMAT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Defines the print medium for the return shipping label.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CREATE_ORDER_PARAMS</CMPNAME>
+     <SCONAME>IV_VALIDATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>validated against JSON schema, validate DHL backend.</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

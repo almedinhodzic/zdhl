@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_DHL_EXPRESS_REST_API</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>DHL Express REST API class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SHIPMENT</CMPNAME>
+     <SCONAME>ES_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DHL REST: Log-Tabele</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SHIPMENT</CMPNAME>
+     <SCONAME>ES_SHIPMENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Response structure for created shipment</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SHIPMENT</CMPNAME>
+     <SCONAME>IS_SHIPMENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Request structure for creating a shipment</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TRACK_SHIPMENT</CMPNAME>
+     <SCONAME>ES_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DHL REST: Log-Tabele</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TRACK_SHIPMENT</CMPNAME>
+     <SCONAME>ES_SHIPPMENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tracking shipment response for DHL Express API</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
